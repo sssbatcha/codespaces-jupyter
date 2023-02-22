@@ -1,7 +1,27 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+A series of N numbers is given as the input. The program must print the missing number in the given series.
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+Boundary Condition(s):
+3 <= N <= 100
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+Input Format:
+The first line contains N.
+The second line contains N numbers separated by space(s).
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+Output Format:
+The first line contains the missing number in the series.
+
+Example Input/Output 1:
+Input:
+4
+2 4 6 10
+
+Output:
+8
+
+Example Input/Output 2:
+Input:
+3
+5 15 20
+
+Output:
+10
